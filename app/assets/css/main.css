@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --container-nav: 100vw;
+}
+
+:root {
+  --ui-container: var(--container-nav);
+  --ui-header-height: --spacing(24);
+}
